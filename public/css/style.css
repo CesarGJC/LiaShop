@@ -1,0 +1,215 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #f2be22;
+    --light-x: #f5f5f5;
+}
+body {
+    background-color: #f2be22;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.bg-light {
+    background-color: var(--light) !important ;
+}
+.bg-light-x {
+    background-color: var(--light-x);
+}
+.form-control,
+.btn {
+    min-height: 3.125 rem;
+    line-height: initial;
+}
+.img-1 {
+    background-image: url("../images/CAJAS.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-2 {
+    background-image: url("../images/BEBO.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.img-3 {
+    background-image: url("../images/LIA.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.layout_padding {
+    padding: 75px;
+}
+.layout_padding2 {
+    padding: 45px 0;
+}
+.custom_heading {
+    color: #030404;
+}
+.info_section {
+    background-color: #1e2126;
+}
+.info_items {
+    width: 70%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.info_items .item .img-box {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.slider_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.about_section {
+    background-image: url(/images/BG.jpg);
+    background-size: cover;
+}
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+.container h2 {
+    color: #16191c;
+}
+.about_section .detail-box p {
+    margin: 25px 0;
+}
+
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f2be22;
+    border: 1px solid #f2be22;
+    color: #16191c;
+}
+.about_section .img-box img {
+    width: 100%;
+}
+.about_section .detail-box a:hover {
+    background-color: transparent;
+    color: #f2be22;
+}
+.info_items .item .detail-box {
+    margin-top: 5px;
+    color: #fff;
+}
+
+.info_items .item .img-box.box-1 {
+    background-image: url(/images/envelope-white.png);
+}
+
+.info_items .item .img-box.box-2 {
+    background-image: url(/images/telephone-white.png);
+}
+
+.info_items .item .img-box.box-3 {
+    background-image: url(/images/envelope-white.png);
+}
+.service_section .row .col-md-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+.service_section .img_box {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color: #f2be22;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.service_section .img_box img {
+    width: 45px;
+}
+
+.service_section .detail_box {
+    margin-top: 25px;
+}
+
+.service_section .detail_box h6 {
+    font-weight: bold;
+}
+
+.service_section a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #16191c;
+    border: 1px solid #16161c;
+    color: #ffffff;
+}
+
+.service_section a:hover {
+    background-color: transparent;
+    color: #023b48;
+}
+.container-fluid {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.footer_section {
+    background-color: #fbfdfd;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.footer_section p {
+    color: #292929;
+    margin: 0;
+    text-align: center;
+}
+
+.footer_section a {
+    color: #292929;
+}
+.card-img-left {
+    width: 45%;
+    background: scroll center url("../resources/ONLY\ LOGO.png");
+}
+.bodyRegister {
+    background: #1e2126;
+    background: #f5f5f5;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+}
+.card-body {
+    background-color: #f2be22;
+}
